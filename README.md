@@ -39,11 +39,11 @@ The CPU temperature is read from /sys/class/thermal/thermal_zone0/temp.
 The battery level is read from /sys/devices/platform/soc/7081400.s_twi/i2c-6/6-0034/axp2202-bat-power-supply.0/power_supply/axp2202-battery/capacity.
 The script runs indefinitely, updating the LEDs every 5 seconds.
 
-##⚠️ Warning
+## ⚠️ Warning
 This script directly interacts with your device's hardware, including controlling LED behaviors.
 Use this script responsibly and monitor its behavior during the first few uses to ensure it functions as expected.
 
-##💡 Tips
+## 💡 Tips
 To stop the script or change the LED behaviors, simply terminate the script or modify the LED functions in the script itself.
 
    
